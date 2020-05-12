@@ -62,7 +62,6 @@ Right now, the only ones that work are "generations" and "memory". "generations"
 ### Cool Examples
 Here are just a few examples of the incredible animations you can create with a multi-gen 2D CA and color map (a list of rgb tuples where the index corresponds to the state of the cell to which that color is assigned)
 
-# make images for these.
 #### game of life with memory
 ```python
 from ca2d import CA
