@@ -37,7 +37,6 @@ Animation controls
 There is a wonderful human named Mirek Wojtovicz who has done a lot of work to catalog and visualize lots of different types of cellular automata. His website is here: http://www.mirekw.com/
 <br><br>
 "Generations" is one of the many familites of CA rules that Mirek describes on his site. It's a simple extension of the familiar "Life" family of CAs which inclues Conway's Game of Life. Rather than transitioning from live to dead, cells enter a dying or refractory state where they are not counted as live cells but still take up space. This leads to highly dynamic evolution, often producing glider-like objects and other complex and aesthetically pleasing patters from shockingly simple rules.
-
 <br><br>
 Rules are encoded in strings with format 'S/B/G', where S = survival, B = birth, G = generations.
 Game of Life is encoded as 23/3/2. G = 2 because there are only two states: alive and dead.
