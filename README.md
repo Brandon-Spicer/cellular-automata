@@ -4,7 +4,7 @@ A python module for creating and visualizing multi-generational 2-dimensional ce
 ### Quickstart: Run Conway's Game of Life
 
 ```python
-from ca2d_mat import CA 
+from ca2d import CA 
 ca = CA(100, 100)
 ca.randomize()
 ca.evolve()
@@ -18,7 +18,7 @@ You can specify which historical game to use by index (`ca.history[5]`).
 By default, the most recent saved game is used.
 
 ```python
-from ca2d_mat import CA 
+from ca2d import CA 
 ca = CA(100, 100)
 ca.randomize()
 ca.evolve(tick=0.1)
